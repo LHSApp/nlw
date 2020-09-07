@@ -122,6 +122,8 @@ app.get('/search', (req, res) => {
   return res.render('search-results.html', { places: rows, total})
   })
 
+  
+
 
 })
 
